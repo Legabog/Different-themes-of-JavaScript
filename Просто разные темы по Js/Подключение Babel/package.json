@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "should": "^13.2.3",
+    "sinon": "^7.5.0",
+    "vue": "^2.6.10",
+    "scripts": {
+    	"watch": "babel app/js -d app/dist --presets env -w"
+    }
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0",
+    "puppeteer": "^1.20.0"
+  }
+}
